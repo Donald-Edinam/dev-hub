@@ -36,9 +36,10 @@ const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 };
 
   return (
-    <Card className="mb-4 w-[500px] p-5">
+    <Card className="w-[500px] p-5">
       <CardContent>
         <form onSubmit={handleSubmit} className="space-y-4">
+          <h1 className='text-center text-2xl font-bold'>Add Your Resource </h1>
           <Input
             placeholder="Title"
             value={resource.title}
